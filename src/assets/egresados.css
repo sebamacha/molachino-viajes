@@ -1,0 +1,17 @@
+.egresado{
+  background-color: #F3F1B8;
+  padding-top: 120px;
+
+}
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 640px) {
+  .btn-small {
+    /* Estilos para el botón en dispositivos pequeños */
+    padding: 8px 90px; /* Ajusta el tamaño del padding según lo necesites */
+    font-size: 15px; /* Tamaño de fuente más pequeño */
+    text-align: center;
+    align-items: center;
+    justify-content: baseline;
+  }
+}

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.dropzone {
+  text-align: center;
+  padding: 20px;
+  border: 5px dashed #eeeeee;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  margin-bottom: 5px;
+}

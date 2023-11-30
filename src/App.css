@@ -1,0 +1,13 @@
+.merror {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Para centrar horizontalmente */
+  height: 250px;
+  width: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.merror img {
+  max-height: 100%;
+  max-width: 100%;
+}

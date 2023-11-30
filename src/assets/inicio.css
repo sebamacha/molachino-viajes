@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto+Mono:wght@700&display=swap');
+
+.hero {
+    height: 100vh;
+    background-image: url("/src\assets\img\home.webp");
+    background-size: cover; /* Para que la imagen ocupe todo el contenedor sin repetirse */
+    background-position: center; /* Para centrar la imagen si es necesario */
+    z-index: -10;
+    padding-top: 50px;
+}
+
+.img-m{
+    padding-top: 40px;
+    width: 390px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+
+.molachino {
+    font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .molachino:hover {
+    color: #ffffff; /* Cambia al color deseado al pasar el cursor */
+  }
+  

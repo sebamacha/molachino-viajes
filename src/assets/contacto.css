@@ -1,0 +1,97 @@
+.contact-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding-bottom: 3%; /* Cambié a porcentaje para que sea relativo al ancho del contenedor */
+  font-size: 6vw; /* Utilizando vw (viewport width) para hacerlo responsivo al tamaño de la pantalla */
+  color: #333;
+  margin: 1%;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Media query para ajustar el tamaño en dispositivos más pequeños */
+@media (max-width: 768px) {
+  .icon {
+    font-size: 10vw; /* Cambio de tamaño para dispositivos más pequeños */
+    padding-bottom: 5%; /* Ajuste del espaciado inferior */
+    margin: 2%; /* Ajuste del margen */
+  }
+}
+.icon:hover {
+  transform: scale(1.2);
+  color: #007bff;
+}
+
+.icon-facebook:hover {
+  color: #1877f2;
+}
+
+.icon-twitter:hover {
+  color: #1da1f2;
+}
+
+.icon-instagram:hover {
+  color: #e1306c;
+}
+
+.icon-whatsapp:hover {
+  color: #25d366;
+}
+
+.icon-email:hover {
+  color: #ff6c00;
+}
+
+.icon-phone:hover {
+  color: #007bff;
+}
+
+.m-redonda {
+  height: 200px;
+  width: auto;
+  margin-top: 25px;
+  animation: balanceo 2s infinite;
+  transform-origin: center;
+}
+
+@keyframes balanceo {
+  0% {
+    transform: rotate(-25deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(-25deg);
+  }
+}
+.contacto {
+  font-size: 25px;
+}
+.back{
+  background-color: #F3F1B8;
+  padding: 120px;
+}
+.icon-contacto{
+  color: #333;
+  font-size: 12vh;
+ 
+}
+
+.icon-left{
+  margin-left: 35px;
+}
+
